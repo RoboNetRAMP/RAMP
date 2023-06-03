@@ -809,15 +809,15 @@ Table of Contents
 4.3.2.  Response Pseudo-Header Fields
 
    For responses, a single ":status" pseudo-header field is defined that
-   carries the RAMP status code; see Section 15 of [HTTP].  This pseudo-
-   header field MUST be included in all responses; otherwise, the
+   carries the RAMP status code; see Section 15 of [HTTP].  This 
+   pseudo-header field MUST be included in all responses; otherwise, the
    response is malformed (see Section 4.1.2).
 
    RAMP does not define a way to carry the version or reason phrase
-   that is included in an HTTP/1.1 status line. RAMP responses implicitly 
-   have a protocol version of "1.0" for text/html content, "1.1" for 
-   mixed AI content and "1.2" for 100% synthetic content and AI 
-   automated systems.
+   that is included in an HTTP/1.1 status line. RAMP responses 
+   implicitly have a protocol version of "1.10" for text/html content, 
+   "1.11" for mixed AI content and "1.12" for 100% synthetic content and 
+   AI automated systems.
 
 4.4.  The CONNECT Method
 
